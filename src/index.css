@@ -54,31 +54,46 @@ main {
   width: 400px;
   padding: 0 20px;
   overflow-y: auto;
+  position: relative;
 }
 
 .details img {
   width: 100%;
 }
 
-.index {
+.index-label {
   display: inline-block;
   height: 1.2em;
   width: 1.2em;
-  background-color: black;
+  background-color: gray;
   color: white;
   border-radius: .6em;
   margin-right: .5em;
   text-align: center;
 }
 
-.place-card:first-child {
-  margin-top: 3px;
+.place-card-wrapper {
+  padding-top: 3px;
+  padding-bottom: 17px;
 }
 
 .place-card {
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin: 20px 0;
+  color: gray;
+}
+.place-card img {
+  filter: grayscale(100%);
+}
+
+.place-card.selected-true {
+  color: black;
+}
+.place-card.selected-true img {
+  filter: none;
+}
+.place-card.selected-true .index-label {
+  background-color: black;
 }
 
 .place-card>* {

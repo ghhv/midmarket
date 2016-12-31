@@ -1,5 +1,10 @@
 export default [
-
+  {
+        "stylers": [
+          { "visibility": "off" },
+          { "saturation": -100 }
+        ]
+      },
     {
         "featureType": "all",
         "elementType": "geometry.stroke",
@@ -14,7 +19,7 @@ export default [
         "elementType": "labels.text",
         "stylers": [
             {
-                "visibility": "on"
+                "visibility": "off"
             }
         ]
     },
@@ -72,6 +77,14 @@ export default [
         "stylers": [
             {
                 "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "stylers": [
+            {
+                "visibility": "on"
             }
         ]
     },
