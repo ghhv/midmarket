@@ -10,7 +10,10 @@ const MapBase = withGoogleMap(props => (
     defaultZoom={16}
     defaultCenter={{lat: 37.7805, lng: -122.4125}}
     onClick={props.onMapClick}
-    defaultOptions={{styles: MAP_STYLES}}
+    defaultOptions={{
+      disableDefaultUI: true,
+      styles: MAP_STYLES
+    }}
   >
     {PLACES.map((place, index) => {
       const isSelected = index === props.selectedIndex;

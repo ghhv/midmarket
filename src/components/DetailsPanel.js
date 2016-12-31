@@ -49,6 +49,8 @@ class DetailsPanel extends Component {
   }
 
   handleScroll(event) {
+    var BUFFER = 10;
+
     var el = ReactDOM.findDOMNode(this);
     var direction = el.scrollTop > this.previousScrollTop ? 'down' : 'up';
     this.previousScrollTop = el.scrollTop;
@@ -60,17 +62,15 @@ class DetailsPanel extends Component {
       if (direction === 'down') {
         var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
         var viewBottom = el.scrollTop + el.clientHeight;
-        if (cardBottom <= viewBottom) {
+        if (cardBottom <= viewBottom + BUFFER) {
           selectedIndex = i;
-        } else {
-          break;
         }
       }
 
       if (direction === 'up') {
         var cardTop = cardEl.offsetTop;
         var viewTop = el.scrollTop;
-        if (cardTop >= viewTop) {
+        if (cardTop >= viewTop - BUFFER) {
           selectedIndex = i;
           break;
         }

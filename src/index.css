@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .app-root {
@@ -13,12 +13,17 @@ body {
 }
 
 header {
+  z-index: 1;
   display: flex;
   height: 200px;
   align-items: center;
+  color: white;
+  background: linear-gradient(45deg, rgba(0,65,194,1) 0%, rgba(0,65,194,.9) 90%);
+  box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.1);
 }
 
 .header-text {
+  margin-left: 1em;
   display: flex;
   align-items: baseline;
 }
@@ -26,12 +31,11 @@ header {
 p.subtitle {
   margin-left: 1em;
   font-style: italic;
-  color: gray;
 }
 
 .logo {
-  height: 50%;
-  margin: 1em;
+  height: 75%;
+  margin: .3em;
 }
 
 main {
@@ -73,8 +77,8 @@ main {
 }
 
 .place-card-wrapper {
-  padding-top: 3px;
-  padding-bottom: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .place-card {
