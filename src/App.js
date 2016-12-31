@@ -16,11 +16,15 @@ class PlaceDetails extends Component {
   render(props) {
     const place = PLACES[this.props.index];
     return (
-      <div>
-        <h2>{place.title}</h2>
-        <div>{place.address}</div>
-        <div>{place.description}</div>
-        <div><a href={place.link}>Learn more</a></div>
+      <div className="place-card">
+        <h2>
+          <div className="index">{this.props.index + 1}</div>
+          {place.title}
+        </h2>
+        <div className="place-eta">{place.eta}</div>
+        <img src={`/images/${place.id}.jpg`} alt="image" />
+        <div className="place-description">{place.description}</div>
+        <div className="place-link"><a href={place.link} target="_blank">Learn more</a></div>
       </div>
     );
   }
@@ -40,7 +44,7 @@ class App extends Component {
         <header>
           <img src={logo} className="logo" alt="logo" />
           <div className="header-text">
-            <h1>midmarket rising</h1>
+            <h1>mid-market rising</h1>
             <p className="subtitle">developments in and around sf civic center</p>
           </div>
         </header>
@@ -50,13 +54,11 @@ class App extends Component {
             onMarkerClick={this.handleMarkerClick}
           />
           <div className="details">
-            Details
-            {this.state.selectedIndex >= 0 && <PlaceDetails index={this.state.selectedIndex} />}
+            {PLACES.map((place, index) => (
+              <PlaceDetails index={index} key={index} />
+            ))}
           </div>
         </main>
-        <footer>
-          Thanks for stopping by!
-        </footer>
       </div>
     );
   }

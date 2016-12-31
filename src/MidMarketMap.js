@@ -13,6 +13,7 @@ const MapBase = withGoogleMap(props => (
     {props.markers.map((marker, index) => (
       <Marker
         {...marker}
+        label={(index + 1).toString()}
         onClick={() => props.onMarkerClick(index)}
         key={index}
       />
