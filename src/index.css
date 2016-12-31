@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-root {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  flex: 1;
+}
+
+header {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.header-text {
+  display: flex;
+  align-items: baseline;
+}
+
+p.subtitle {
+  margin-left: 1em;
+  font-style: italic;
+  color: gray;
+}
+
+.logo {
+  height: 50%;
+  margin: 1em;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.map-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+}
+.map-element {
+  flex-grow: 1;
+}
+
+.details {
+  width: 400px;
+  padding: 0 20px;
+  overflow-y: auto;
+}
+
+.details img {
+  width: 100%;
+}
+
+.index {
+  display: inline-block;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: black;
+  color: white;
+  border-radius: .6em;
+  margin-right: .5em;
+  text-align: center;
+}
+
+.place-card:first-child {
+  margin-top: 3px;
+}
+
+.place-card {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.place-card>* {
+  margin-top: .5em;
+  margin-bottom: 0;
+}
+
+.place-eta {
+  color: gray;
+}
