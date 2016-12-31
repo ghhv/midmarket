@@ -22,7 +22,7 @@ class PlaceDetails extends Component {
           {place.title}
         </h2>
         <div className="place-eta">{place.eta}</div>
-        <img src={`/images/${place.id}.jpg`} alt="image" />
+        <img src={require(`./images/${place.id}.jpg`)} alt={place.id} />
         <div className="place-description">{place.description}</div>
         <div className="place-link"><a href={place.link} target="_blank">Learn more</a></div>
       </div>
