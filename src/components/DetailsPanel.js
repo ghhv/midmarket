@@ -23,6 +23,7 @@ class DetailsPanel extends Component {
         {PLACES.map((place, index) => (
           <PlaceCard
             ref={(card) => { this.cards[index] = card; }}
+            onClick={() => { this.props.onCardSelected(index); }}
             index={index}
             key={index}
             isSelected={index === this.props.selectedIndex}
@@ -55,25 +56,48 @@ class DetailsPanel extends Component {
     var direction = el.scrollTop > this.previousScrollTop ? 'down' : 'up';
     this.previousScrollTop = el.scrollTop;
 
-    var selectedIndex = this.props.selectedIndex;
+    var fullyVisible = [];
+    var topVisible = [];
+    var bottomVisible = [];
     for (let i = 0; i < this.cards.length; i++) {
       var cardEl = ReactDOM.findDOMNode(this.cards[i]);
 
+      var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
+      var cardTop = cardEl.offsetTop;
+      var viewBottom = el.scrollTop + el.clientHeight;
+      var viewTop = el.scrollTop;
+
+      // Add some inertia to the current selection.
       if (direction === 'down') {
-        var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
-        var viewBottom = el.scrollTop + el.clientHeight;
-        if (cardBottom <= viewBottom + BUFFER) {
-          selectedIndex = i;
-        }
+        viewBottom -= BUFFER;
+      } else {
+        viewTop -= BUFFER;
       }
 
-      if (direction === 'up') {
-        var cardTop = cardEl.offsetTop;
-        var viewTop = el.scrollTop;
-        if (cardTop >= viewTop - BUFFER) {
-          selectedIndex = i;
-          break;
-        }
+      var isBottomVisible = cardBottom <= viewBottom && cardBottom >= viewTop;
+      var isTopVisible = cardTop <= viewBottom && cardTop >= viewTop;
+
+      if (isBottomVisible && isTopVisible) {
+        fullyVisible.push(i);
+      } else if (isBottomVisible) {
+        bottomVisible.push(i);
+      } else if (isTopVisible) {
+        topVisible.push(i);
+      }
+    }
+
+    var selectedIndex = this.props.selectedIndex;
+    if (direction === 'down') {
+      if (fullyVisible.length) {
+        selectedIndex = fullyVisible[0];
+      } else if (topVisible.length) {
+        selectedIndex = topVisible[0];
+      }
+    } else {
+      if (fullyVisible.length) {
+        selectedIndex = fullyVisible[fullyVisible.length - 1];
+      } else if (bottomVisible.length) {
+        selectedIndex = bottomVisible[0];
       }
     }
 

@@ -6,7 +6,7 @@ class PlaceCard extends Component {
   render(props) {
     const place = PLACES[this.props.index];
     return (
-      <div className="place-card-wrapper">
+      <div className="place-card-wrapper" onClick={this.props.onClick}>
         <div className={`place-card selected-${this.props.isSelected}`}>
           <h2>
             <div className="index-label">{this.props.index + 1}</div>
