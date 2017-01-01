@@ -49,13 +49,13 @@ class DetailsPanel extends Component {
   }
 
   handleScroll(event) {
-    var BUFFER = 10;
+    var BUFFER = 100;
 
     var el = ReactDOM.findDOMNode(this);
     var direction = el.scrollTop > this.previousScrollTop ? 'down' : 'up';
     this.previousScrollTop = el.scrollTop;
 
-    var selectedIndex;
+    var selectedIndex = this.props.selectedIndex;
     for (let i = 0; i < this.cards.length; i++) {
       var cardEl = ReactDOM.findDOMNode(this.cards[i]);
 

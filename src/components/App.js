@@ -11,7 +11,8 @@ class App extends Component {
     this.handleCardSelected = this.handleCardSelected.bind(this);
     this.state = {
       selectedIndex: 0,
-      shouldScrollToSelected: false
+      shouldScrollToSelected: false,
+      shouldCenterSelected: true
     }
   }
 
@@ -29,6 +30,7 @@ class App extends Component {
           <MidMarketMap
             onPlaceClick={this.handlePlaceClick}
             selectedIndex={this.state.selectedIndex}
+            shouldCenterSelected={this.state.shouldCenterSelected}
           />
           <DetailsPanel
             selectedIndex={this.state.selectedIndex}
@@ -43,14 +45,16 @@ class App extends Component {
   handlePlaceClick(index) {
     this.setState({
       selectedIndex: index,
-      shouldScrollToSelected: true
+      shouldScrollToSelected: true,
+      shouldCenterSelected: false
     });
   }
 
   handleCardSelected(index) {
     this.setState({
       selectedIndex: index,
-      shouldScrollToSelected: false
+      shouldScrollToSelected: false,
+      shouldCenterSelected: true
     });
   }
 }
