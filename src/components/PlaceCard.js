@@ -15,7 +15,7 @@ class PlaceCard extends Component {
           <div className="place-eta">{place.eta}</div>
           <img src={require(`../images/places/${place.id}.jpg`)} alt={place.id} />
           <div className="place-description">{place.description}</div>
-          <div className="place-link"><a href={place.link} target="_blank">Learn more</a></div>
+          <div className="place-link"><a href={place.linkdeveloper} target="_blank">Learn more</a></div>
         </div>
       </div>
     );

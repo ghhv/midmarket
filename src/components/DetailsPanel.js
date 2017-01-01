@@ -50,8 +50,6 @@ class DetailsPanel extends Component {
   }
 
   handleScroll(event) {
-    var BUFFER = 100;
-
     var el = ReactDOM.findDOMNode(this);
     var direction = el.scrollTop > this.previousScrollTop ? 'down' : 'up';
     this.previousScrollTop = el.scrollTop;
@@ -66,13 +64,6 @@ class DetailsPanel extends Component {
       var cardTop = cardEl.offsetTop;
       var viewBottom = el.scrollTop + el.clientHeight;
       var viewTop = el.scrollTop;
-
-      // Add some inertia to the current selection.
-      if (direction === 'down') {
-        viewBottom -= BUFFER;
-      } else {
-        viewTop -= BUFFER;
-      }
 
       var isBottomVisible = cardBottom <= viewBottom && cardBottom >= viewTop;
       var isTopVisible = cardTop <= viewBottom && cardTop >= viewTop;
