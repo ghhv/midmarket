@@ -22,7 +22,8 @@ body {
 header {
   z-index: 1;
   display: flex;
-  height: 400px;
+  flex-shrink: 0;
+  height: 80px;
   align-items: center;
   color: white;
   background: linear-gradient(45deg, rgba(0,65,194,1) 40%, rgba(0,65,194,.7) 90%);
@@ -120,9 +121,17 @@ main {
   color: gray;
 }
 
+.place-link {
+  display: inline-block;
+  margin-right: 1em;
+}
+
 @media (max-width: 720px) {
   main {
     flex-direction: column;
+  }
+  header {
+    height: 75px;
   }
   .map-container,
   .map-element {

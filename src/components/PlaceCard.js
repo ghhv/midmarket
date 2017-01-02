@@ -9,13 +9,13 @@ class PlaceCard extends Component {
       <div className="place-card-wrapper" onClick={this.props.onClick}>
         <div className={`place-card selected-${this.props.isSelected}`}>
           <h2>
-            <div className="index-label">{this.props.index + 1}</div>
             {place.title}
           </h2>
           <div className="place-eta">{place.eta}</div>
           <img src={require(`../images/places/${place.id}.jpg`)} alt={place.id} />
           <div className="place-description">{place.description}</div>
-          <div className="place-link"><a href={place.linkdeveloper} target="_blank">Learn more</a></div>
+          {place.developer && <div className="place-link"><a href={place.developer} target="_blank">Project site</a></div>}
+          {place.news && <div className="place-link"><a href={place.news} target="_blank">News</a></div>}
         </div>
       </div>
     );
