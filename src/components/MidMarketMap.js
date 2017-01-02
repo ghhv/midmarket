@@ -4,6 +4,27 @@ import MAP_STYLES from '../constants/mapstyles.js';
 
 import PLACES from '../constants/places.js';
 
+const OPACITIES = {
+  'no timeline': .1,
+  'planning': .3,
+  'construction': .4,
+  '2021': .5,
+  '2020': .6,
+  '2019': .7,
+  '2018': .8,
+  '2017': .9
+};
+
+const getEtaOpacity = (eta) => {
+  let etaOpacity = 0;
+  for (let keyword in OPACITIES) {
+    if (String(eta).toLowerCase().indexOf(keyword) > -1) {
+      etaOpacity = OPACITIES[keyword];
+    }
+  }
+  return etaOpacity;
+};
+
 const MapBase = withGoogleMap(props => (
   <GoogleMap
     ref={props.handleRef}
@@ -19,14 +40,16 @@ const MapBase = withGoogleMap(props => (
   >
     {PLACES.map((place, index) => {
       const isSelected = index === props.selectedIndex;
+      const opacity = getEtaOpacity(place.eta);
+      const color = isSelected ? '#FF0000' : '#0041C2';
       return (<Polygon
         path={JSON.parse(place.coords)}
         defaultOptions={{
-          strokeColor: '#0041C2',
-          strokeOpacity: isSelected ? 1 : .5,
+          strokeColor: color,
+          strokeOpacity: opacity,
           strokeWeight: 2,
-          fillColor: '#0041C2',
-          fillOpacity: isSelected ? .5 : .1
+          fillColor: color,
+          fillOpacity: opacity * .5
         }}
         onClick={() => props.onPlaceClick(index)}
         key={index + isSelected.toString()}

@@ -3,7 +3,8 @@ export default [
         "id": "trinity_place_4",
         "title": "Trinity Place (Phase 4)",
         "developer": "http://www.trinitysf.com/trinity-place/",
-        "description": "The final part of a large apartment complex with public open spaces and retail.",
+        "news": "http://www.sfchronicle.com/bayarea/article/S-F-planners-back-bold-original-vision-for-6845780.php",
+        "description": "The final part of a large apartment complex with public open spaces and retail. Includes space for a multistory grocery store that could connect to Civic Center BART.",
         "eta": "2018+",
         "coords": "[{\"lat\":37.77928833373975,\"lng\":-122.41370469331741},{\"lat\":37.77907421797231,\"lng\":-122.41344183683395},{\"lat\":37.77899577936766,\"lng\":-122.41354644298553},{\"lat\":37.77890038095251,\"lng\":-122.41342306137085},{\"lat\":37.77875834308406,\"lng\":-122.41360813379288},{\"lat\":37.77887282138742,\"lng\":-122.41374760866165},{\"lat\":37.77865446447015,\"lng\":-122.41402387619019},{\"lat\":37.77856754551777,\"lng\":-122.4139192700386},{\"lat\":37.778395827287085,\"lng\":-122.41414457559586},{\"lat\":37.778684144089006,\"lng\":-122.41449862718582}]"
     },
@@ -11,6 +12,7 @@ export default [
         "id": "trinity_place_3",
         "title": "Trinity Place (Phase 3)",
         "developer": "http://www.trinitysf.com/trinity-place/",
+        "news": "http://www.nbcbayarea.com/news/local/92-Foot-Venus-Statue-is-Completed-Tallest-Sculpture-in-San-Francisco-380527661.html",
         "description": "The third part of a large apartment complex with public open spaces and retail. Features a large metal statue in a courtyard.",
         "eta": "Q2 2017",
         "coords": "[{\"lat\":37.77886434151916,\"lng\":-122.41332650184631},{\"lat\":37.77872654352386,\"lng\":-122.41314947605133},{\"lat\":37.77833434782357,\"lng\":-122.41364300251007},{\"lat\":37.77803542970333,\"lng\":-122.41328626871109},{\"lat\":37.77788279019702,\"lng\":-122.4134874343872},{\"lat\":37.77834706771675,\"lng\":-122.41407483816147},{\"lat\":37.778889781120995,\"lng\":-122.4133613705635}]"
@@ -35,9 +37,18 @@ export default [
         "coords": "[{\"lat\":37.780455359767586,\"lng\":-122.41232335567474},{\"lat\":37.7801267711964,\"lng\":-122.41190895438194},{\"lat\":37.780223227992956,\"lng\":-122.41178557276726},{\"lat\":37.780308025072756,\"lng\":-122.41189152002335},{\"lat\":37.78028576584871,\"lng\":-122.41192236542702},{\"lat\":37.78041296132435,\"lng\":-122.41208598017693},{\"lat\":37.78043416054901,\"lng\":-122.41205513477325},{\"lat\":37.780550756175934,\"lng\":-122.41221204400063},{\"lat\":37.780462779492645,\"lng\":-122.4123327434063}]"
     },
     {
+        "id": "merrill",
+        "title": "Merrill Drug Store",
+        "developer": "http://propertymap.sfplanning.org?search=1089+MARKET+ST",
+        "description": "This property was purchased in 2013 by Paul G Boschetti, the owner of the adjacent Aida Hotel. Nothing has happened since.",
+        "eta": "No timeline",
+        "coords": "[{\"lat\":37.780234887597196,\"lng\":-122.41177752614021},{\"lat\":37.78057195536108,\"lng\":-122.41220399737358},{\"lat\":37.78064509250312,\"lng\":-122.41210877895355},{\"lat\":37.78031120496136,\"lng\":-122.41167694330215}]"
+    },
+    {
         "id": "proper_hotel",
         "title": "Proper Hotel",
         "developer": "http://www.properhotel.com/san-francisco",
+        "news": "http://www.architecturaldigest.com/story/kelly-wearstler-proper-hotels",
         "description": "The SF location of the Kor Group's a new \"Proper\" hotel brand.",
         "eta": "Q4 2017",
         "coords": "[{\"lat\":37.78106907450963,\"lng\":-122.4121356010437},{\"lat\":37.78096731904986,\"lng\":-122.4120819568634},{\"lat\":37.780598454333955,\"lng\":-122.41255402565002},{\"lat\":37.78095459960753,\"lng\":-122.41298049688339}]"
@@ -65,7 +76,7 @@ export default [
         "id": "1055_market",
         "title": "1055 Market",
         "news": "http://www.bizjournals.com/sanfrancisco/blog/2013/12/from-armynavy-store-to-hotel.html",
-        "description": "The only surplus store was purchased by a hotel developer in 2013, but there's been no movement since.",
+        "description": "The former surplus store was purchased by a hotel developer in 2013, but there's been no movement since.",
         "eta": "No timeline",
         "coords": "[{\"lat\":37.781148570865085,\"lng\":-122.41149187088013},{\"lat\":37.78124502632826,\"lng\":-122.41135910153389},{\"lat\":37.78091326140489,\"lng\":-122.41093531250954},{\"lat\":37.78080832586353,\"lng\":-122.41106003522873}]",
         "address": "1055 Market St"
@@ -75,7 +86,7 @@ export default [
         "title": "1066 Market",
         "developer": "http://shorenstein.com/portfolio/investments/property?id=7182",
         "news": "http://hoodline.com/2016/07/major-market-rate-residential-development-for-market-jones-is-a-go-again",
-        "description": "300 apartments and 5000 square feet of retail.",
+        "description": "300 apartments and 5000 square feet of retail by Shorenstein, which also owns the Golden Gate Theatre across the street.",
         "eta": 2019,
         "coords": "[{\"lat\":37.781991226976594,\"lng\":-122.41209134459496},{\"lat\":37.78206224283889,\"lng\":-122.41153612732887},{\"lat\":37.78157466987309,\"lng\":-122.41143554449081},{\"lat\":37.78146761537824,\"lng\":-122.41156831383705},{\"lat\":37.78162024748225,\"lng\":-122.41160318255424},{\"lat\":37.78156937014928,\"lng\":-122.41200014948845}]",
         "address": "1066 Market St"
@@ -134,7 +145,7 @@ export default [
         "title": "5M Project",
         "developer": "http://www.5mproject.com/",
         "news": "http://www.sfgate.com/bayarea/article/SF-supervisors-OK-5M-redevelopment-project-South-6640075.php",
-        "description": "A large project with several skyscrapers and green open spaces. It will att several hundred new housing units, 40% of which will be subsidized.",
+        "description": "A large project with several skyscrapers and green open spaces. It will add several hundred new housing units, 40% of which will be subsidized.",
         "eta": "In planning",
         "coords": "[{\"lat\":37.78180255763787,\"lng\":-122.40748465061188},{\"lat\":37.78110723277092,\"lng\":-122.40660488605499},{\"lat\":37.78139129920803,\"lng\":-122.40626692771912},{\"lat\":37.7809461199781,\"lng\":-122.40573048591614},{\"lat\":37.78149305408412,\"lng\":-122.4050760269165},{\"lat\":37.78259962931649,\"lng\":-122.40648150444031}]"
     },
@@ -162,7 +173,7 @@ export default [
         "id": "101_hyde",
         "title": "101 Hyde",
         "news": "http://www.sfchronicle.com/bayarea/article/Deal-on-old-Tenderloin-post-office-a-boost-for-8218650.php",
-        "description": "A 100-percent subsidized residential complex with 87 units and groundfloor retail, subsidized by Shorenstein's development at 6th and Market.",
+        "description": "A 100-percent subsidized residential complex with 87 units and groundfloor retail.",
         "eta": 2021,
         "coords": "[{\"lat\":37.781878873383455,\"lng\":-122.41614818572998},{\"lat\":37.78167112478022,\"lng\":-122.41611197590828},{\"lat\":37.78172730175604,\"lng\":-122.41564258933067},{\"lat\":37.781941409838446,\"lng\":-122.41568148136139}]",
         "address": "101 Hyde St"
@@ -191,7 +202,7 @@ export default [
         "id": "30_otis",
         "title": "30 Otis St",
         "news": "http://www.socketsite.com/archives/2016/06/designs-for-this-250-foot-hub-tower-officially-submitted-to-planning.html",
-        "description": "A skyscraper with 418 apartments a ballet school, included to replace the one at the current site.",
+        "description": "A skyscraper with 418 apartments above a ballet school, included to replace the one at the current site.",
         "eta": "In planning",
         "coords": "[{\"lat\":37.77274162275715,\"lng\":-122.41934537887573},{\"lat\":37.77297907836514,\"lng\":-122.41969406604767},{\"lat\":37.773377662849896,\"lng\":-122.41922199726105},{\"lat\":37.77311900720562,\"lng\":-122.41885721683502}]",
         "address": "30 Otis St"
@@ -220,7 +231,7 @@ export default [
         "title": "One Oak",
         "developer": "http://www.themarkcompany.com/project/one-oak/",
         "news": "http://sf.curbed.com/2016/4/18/11455922/one-oak-van-ness",
-        "description": "A 39-story, 300-unit skyscraper at the business intersection in the city.",
+        "description": "A 39-story, 300-unit skyscraper at one of the busiest intersections in the city.",
         "eta": 2020,
         "coords": "[{\"lat\":37.775247589032475,\"lng\":-122.42011249065399},{\"lat\":37.77479389246737,\"lng\":-122.42001861333847},{\"lat\":37.775200947457925,\"lng\":-122.41949558258057},{\"lat\":37.77531755133915,\"lng\":-122.4195197224617}]"
     },
