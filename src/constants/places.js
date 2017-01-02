@@ -52,15 +52,6 @@ export default [
         "coords": "[{\"lat\":37.78153121212655,\"lng\":-122.41267204284668},{\"lat\":37.781143271110714,\"lng\":-122.41258889436722},{\"lat\":37.78118142933369,\"lng\":-122.41226702928543},{\"lat\":37.781196268637316,\"lng\":-122.41221070289612},{\"lat\":37.78123442683297,\"lng\":-122.41217315196991},{\"lat\":37.781287424294206,\"lng\":-122.41216510534286},{\"lat\":37.781596928708986,\"lng\":-122.41223216056824},{\"lat\":37.781546051359946,\"lng\":-122.41268008947372}]"
     },
     {
-        "id": "1055_market",
-        "title": "1055 Market",
-        "news": "http://www.bizjournals.com/sanfrancisco/blog/2013/12/from-armynavy-store-to-hotel.html",
-        "description": "The only surplus store was purchased by a hotel developer in 2013, but there's been no movement since.",
-        "eta": "No timeline",
-        "coords": "[{\"lat\":37.781148570865085,\"lng\":-122.41149187088013},{\"lat\":37.78124502632826,\"lng\":-122.41135910153389},{\"lat\":37.78091326140489,\"lng\":-122.41093531250954},{\"lat\":37.78080832586353,\"lng\":-122.41106003522873}]",
-        "address": "1055 Market St"
-    },
-    {
         "id": "1075_market",
         "title": "1075 Market",
         "developer": "http://www.levydesignpartners.com/projects/market.html",
@@ -69,6 +60,15 @@ export default [
         "eta": 2018,
         "coords": "[{\"lat\":37.78075108823274,\"lng\":-122.4118821322918},{\"lat\":37.7804542998068,\"lng\":-122.4115227162838},{\"lat\":37.78058255495138,\"lng\":-122.41136446595192},{\"lat\":37.78086556345002,\"lng\":-122.41173192858696}]",
         "address": "1075 Market St"
+    },
+    {
+        "id": "1055_market",
+        "title": "1055 Market",
+        "news": "http://www.bizjournals.com/sanfrancisco/blog/2013/12/from-armynavy-store-to-hotel.html",
+        "description": "The only surplus store was purchased by a hotel developer in 2013, but there's been no movement since.",
+        "eta": "No timeline",
+        "coords": "[{\"lat\":37.781148570865085,\"lng\":-122.41149187088013},{\"lat\":37.78124502632826,\"lng\":-122.41135910153389},{\"lat\":37.78091326140489,\"lng\":-122.41093531250954},{\"lat\":37.78080832586353,\"lng\":-122.41106003522873}]",
+        "address": "1055 Market St"
     },
     {
         "id": "1066_market",
