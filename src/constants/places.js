@@ -59,7 +59,7 @@ export default [
         "developer": "http://thehiberniabanksf.com/",
         "news": "http://www.sfchronicle.com/bayarea/nativeson/article/Best-of-SF-s-past-ready-for-future-9518392.php",
         "description": "The building has been vacant since construction ended in early 2016, aside from a handful of events such as a rally for Hillary Clinton. It seems the owner is having trouble finding a tenant at a price they are comfortable with.",
-        "eta": "Construction done, no timeline for tenant",
+        "eta": "Construction finished 2016, no timeline for tenant",
         "coords": "[{\"lat\":37.78153121212655,\"lng\":-122.41267204284668},{\"lat\":37.781143271110714,\"lng\":-122.41258889436722},{\"lat\":37.78118142933369,\"lng\":-122.41226702928543},{\"lat\":37.781196268637316,\"lng\":-122.41221070289612},{\"lat\":37.78123442683297,\"lng\":-122.41217315196991},{\"lat\":37.781287424294206,\"lng\":-122.41216510534286},{\"lat\":37.781596928708986,\"lng\":-122.41223216056824},{\"lat\":37.781546051359946,\"lng\":-122.41268008947372}]"
     },
     {
@@ -96,8 +96,8 @@ export default [
         "title": "1028 Market",
         "developer": "http://www.1028market.com/",
         "news": "http://sf.curbed.com/2016/9/23/13036142/1028-market-impact-report-hollywood-billiards",
-        "description": "The planned 13-story, 186-unit residential project would offer retail on both Golden Gate Ave and Market St. The city's September 2016 enivornmental impact report recommended against construction in favor of preserving the \"historic\" existing building as a vacant shell.",
-        "eta": "No timeline",
+        "description": "The planned 13-story, 186-unit residential project would offer retail on both Golden Gate Ave and Market St. The city's September 2016 environmental impact report recommended against construction in favor of preserving the \"historic\" existing building as a vacant shell.",
+        "eta": "In planning",
         "coords": "[{\"lat\":37.782066482589705,\"lng\":-122.41152673959732},{\"lat\":37.78158102954118,\"lng\":-122.41142615675926},{\"lat\":37.781871453800534,\"lng\":-122.41105869412422},{\"lat\":37.78197744777154,\"lng\":-122.41121292114258},{\"lat\":37.78210358039895,\"lng\":-122.41124242544174}]",
         "address": "1028 Market St"
     },

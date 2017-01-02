@@ -7,12 +7,13 @@ import PLACES from '../constants/places.js';
 const OPACITIES = {
   'no timeline': .1,
   'planning': .3,
-  'construction': .4,
-  '2021': .5,
-  '2020': .6,
-  '2019': .7,
-  '2018': .8,
-  '2017': .9
+  'construction': .3,
+  '2021': .3,
+  '2020': .3,
+  '2019': .5,
+  '2018': .6,
+  '2017': .8,
+  '2016': 1
 };
 
 const getEtaOpacity = (eta) => {
@@ -20,6 +21,7 @@ const getEtaOpacity = (eta) => {
   for (let keyword in OPACITIES) {
     if (String(eta).toLowerCase().indexOf(keyword) > -1) {
       etaOpacity = OPACITIES[keyword];
+      break;
     }
   }
   return etaOpacity;
