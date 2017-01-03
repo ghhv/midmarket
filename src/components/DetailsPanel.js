@@ -54,6 +54,9 @@ class DetailsPanel extends Component {
     var direction = el.scrollTop > this.previousScrollTop ? 'down' : 'up';
     this.previousScrollTop = el.scrollTop;
 
+    var viewBottom = el.scrollTop + el.clientHeight;
+    var viewTop = el.scrollTop;
+
     var fullyVisible = [];
     var topVisible = [];
     var bottomVisible = [];
@@ -62,8 +65,6 @@ class DetailsPanel extends Component {
 
       var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
       var cardTop = cardEl.offsetTop;
-      var viewBottom = el.scrollTop + el.clientHeight;
-      var viewTop = el.scrollTop;
 
       var isBottomVisible = cardBottom <= viewBottom && cardBottom >= viewTop;
       var isTopVisible = cardTop <= viewBottom && cardTop >= viewTop;
@@ -80,13 +81,13 @@ class DetailsPanel extends Component {
     var selectedIndex = this.props.selectedIndex;
     if (direction === 'down') {
       if (fullyVisible.length) {
-        selectedIndex = fullyVisible[0];
+        selectedIndex = fullyVisible[fullyVisible.length - 1];
       } else if (topVisible.length) {
         selectedIndex = topVisible[0];
       }
     } else {
       if (fullyVisible.length) {
-        selectedIndex = fullyVisible[fullyVisible.length - 1];
+        selectedIndex = fullyVisible[0];
       } else if (bottomVisible.length) {
         selectedIndex = bottomVisible[0];
       }
