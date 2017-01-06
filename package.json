@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-google-maps": "^6.0.1"
+    "react-google-maps": "^6.0.1",
+    "scroll-into-view": "^1.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
