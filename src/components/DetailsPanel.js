@@ -69,9 +69,12 @@ class DetailsPanel extends Component {
         list.dispatchEvent(e);
       }
 
+      const cardNode = ReactDOM.findDOMNode(card);
+      const options = {align: {top: 0}};
+
       this.setScrollHandlerEnabled(false);
       this._autoScrollCount++;
-      scrollIntoView(ReactDOM.findDOMNode(card), {}, (type) => {
+      scrollIntoView(cardNode, options, () => {
         this._autoScrollCount--;
         if (this._autoScrollCount === 0) {
           this.setScrollHandlerEnabled(true);
