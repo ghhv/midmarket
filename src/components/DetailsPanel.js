@@ -108,7 +108,8 @@ class DetailsPanel extends Component {
       const cardEl = ReactDOM.findDOMNode(this.cards[i]);
 
       var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
-      var cardTop = cardEl.offsetTop + 40;
+      var buffer = window.innerWidth > 720 ? 40 : 120;
+      var cardTop = cardEl.offsetTop + buffer;
 
       var isBottomVisible = cardBottom <= viewBottom && cardBottom >= viewTop;
       var isTopVisible = cardTop <= viewBottom && cardTop >= viewTop;
@@ -137,7 +138,6 @@ class DetailsPanel extends Component {
       }
     }
 
-    console.log(fullyVisible, topVisible, bottomVisible, selectedIndex)
     this.props.onCardSelected(selectedIndex);
   }
 
