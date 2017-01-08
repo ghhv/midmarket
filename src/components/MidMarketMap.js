@@ -77,7 +77,7 @@ function getCenter(coords) {
 }
 
 const getAppropriateZoom = () => {
-  return window.innerWidth > 720 ? 16 : 14;
+  return window.innerWidth > 720 ? 16 : 15;
 }
 class MidMarketMap extends Component {
   constructor(props) {
