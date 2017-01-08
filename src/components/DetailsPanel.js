@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 
 import PlaceCard from './PlaceCard'
 
-import PLACES from '../constants/places.js';
+import PLACES from '../constants/places';
+
+import scrollTo from './scrollTo';
 
 class DetailsPanel extends Component {
   constructor(props) {
@@ -68,7 +70,14 @@ class DetailsPanel extends Component {
     this.computeBreakpoints();
     if (this.props.selectedIndex !== prevProps.selectedIndex &&
         this.props.shouldScrollToSelected) {
-      window.scrollTo(0, this.cardTops[this.props.selectedIndex]);
+      this.setScrollHandlerEnabled(false);
+      this._autoScrollCount++;
+      scrollTo(this.cardTops[this.props.selectedIndex], () => {
+        this._autoScrollCount--;
+        if (this._autoScrollCount == 0) {
+          this.setScrollHandlerEnabled(true);
+        }
+      });
     }
   }
 
