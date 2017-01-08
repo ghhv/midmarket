@@ -74,7 +74,7 @@ class DetailsPanel extends Component {
       this._autoScrollCount++;
       scrollTo(this.cardTops[this.props.selectedIndex], () => {
         this._autoScrollCount--;
-        if (this._autoScrollCount == 0) {
+        if (this._autoScrollCount === 0) {
           // HACK: the callback is called before the scroll finishes,
           // so add delay...
           setTimeout(() => this.setScrollHandlerEnabled(true), 100);
