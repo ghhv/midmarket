@@ -22,8 +22,8 @@ class App extends Component {
         <header>
           <img src={logo} className="logo" alt="logo" />
           <div className="header-text">
-            <h1>mid-market status</h1>
-            <p className="subtitle">developments in and around sf civic center</p>
+            <h1>Mid-Market Status</h1>
+            <p className="subtitle">Development projects in and around SF Civic Center.</p>
             <p className="contact"><a href="mailto:maxheinritz@gmail.com">contact</a></p>
           </div>
         </header>
