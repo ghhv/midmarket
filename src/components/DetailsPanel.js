@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import scrollIntoView from 'scroll-into-view';
 
 import PlaceCard from './PlaceCard'
 
@@ -9,12 +8,19 @@ import PLACES from '../constants/places.js';
 class DetailsPanel extends Component {
   constructor(props) {
     super(props);
+
     this.handleScroll = this.handleScroll.bind(this);
     this.setScrollHandlerEnabled = this.setScrollHandlerEnabled.bind(this);
+
+
     this.cards = [];
+
     this.previousScrollTop = 0;
     this._isScrollHandlerEnabled = false;
     this._autoScrollCount = 0;
+
+    this.cardTops = [];
+    this.cardBottoms = [];
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -24,26 +30,27 @@ class DetailsPanel extends Component {
   render() {
     return (
       <div className="details">
-        {PLACES.map((place, index) => (
-          <PlaceCard
-            ref={(card) => { this.cards[index] = card; }}
-            onClick={() => { this.props.onCardSelected(index); }}
-            index={index}
-            key={index}
-            isSelected={index === this.props.selectedIndex}
-          />
-        ))}
+        <div>
+          {PLACES.map((place, index) => (
+            <PlaceCard
+              ref={(card) => { this.cards[index] = card; }}
+              onClick={() => { this.props.onCardSelected(index); }}
+              index={index}
+              key={index}
+              isSelected={index === this.props.selectedIndex}
+            />
+          ))}
+        </div>
       </div>
     );
   }
 
   setScrollHandlerEnabled(enabled) {
-    const node = ReactDOM.findDOMNode(this);
     if (enabled && !this._isScrollHandlerEnabled) {
-      node.addEventListener('scroll', this.handleScroll);
+      document.addEventListener('scroll', this.handleScroll);
       this._isScrollHandlerEnabled = true;
     } else if (!enabled && this._isScrollHandlerEnabled) {
-      node.removeEventListener('scroll', this.handleScroll);
+      document.removeEventListener('scroll', this.handleScroll);
       this._isScrollHandlerEnabled = false;
     }
 
@@ -58,44 +65,36 @@ class DetailsPanel extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
+    this.computeBreakpoints();
     if (this.props.selectedIndex !== prevProps.selectedIndex &&
         this.props.shouldScrollToSelected) {
-      const card = this.cards[this.props.selectedIndex];
-
-      if (this._autoScrollCount) {
-        // Cancel the previous scroll.
-        var e = new TouchEvent('touchstart');
-        const list = ReactDOM.findDOMNode(this);
-        list.dispatchEvent(e);
-      }
-
-      const cardNode = ReactDOM.findDOMNode(card);
-      const options = {align: {top: 0}};
-
-      this.setScrollHandlerEnabled(false);
-      this._autoScrollCount++;
-      scrollIntoView(cardNode, options, () => {
-        this._autoScrollCount--;
-        if (this._autoScrollCount === 0) {
-          this.setScrollHandlerEnabled(true);
-        }
-      });
+      window.scrollTo(0, this.cardTops[this.props.selectedIndex]);
     }
   }
 
-  handleScroll(event) {
-    var el = ReactDOM.findDOMNode(this);
-    var direction = el.scrollTop > this.previousScrollTop ? 'down' : 'up';
-    this.previousScrollTop = el.scrollTop;
+  computeBreakpoints() {
+    this.cardTops = [];
+    this.cardBottoms = [];
+    this.cards.forEach((card) => {
+      const cardEl = ReactDOM.findDOMNode(card);
+      this.cardTops.push(cardEl.offsetTop);
+      this.cardBottoms.push(cardEl.cardBottom + cardEl.clientHeight);
+    });
+  }
 
-    var viewBottom = el.scrollTop + el.clientHeight;
-    var viewTop = el.scrollTop;
+  handleScroll(event) {
+    var el = window
+    var direction = el.scrollY > this.previousScrollTop ? 'down' : 'up';
+    this.previousScrollTop = el.scrollY;
+
+    var viewBottom = el.scrollY + el.innerHeight;
+    var viewTop = el.scrollY;
 
     var fullyVisible = [];
     var topVisible = [];
     var bottomVisible = [];
     for (let i = 0; i < this.cards.length; i++) {
-      var cardEl = ReactDOM.findDOMNode(this.cards[i]);
+      const cardEl = ReactDOM.findDOMNode(this.cards[i]);
 
       var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
       var cardTop = cardEl.offsetTop + 40;
@@ -127,8 +126,10 @@ class DetailsPanel extends Component {
       }
     }
 
+    console.log(fullyVisible, topVisible, bottomVisible, selectedIndex)
     this.props.onCardSelected(selectedIndex);
   }
+
 }
 
 export default DetailsPanel;

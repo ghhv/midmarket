@@ -12,8 +12,9 @@ class App extends Component {
     this.state = {
       selectedIndex: 0,
       shouldScrollToSelected: false,
-      shouldCenterSelected: true
+      shouldCenterSelected: false
     }
+    window.onbeforeunload = function() { window.scrollTo(0, 0); }
   }
 
   render() {

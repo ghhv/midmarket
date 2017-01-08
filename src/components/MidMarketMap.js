@@ -37,7 +37,8 @@ const MapBase = withGoogleMap(props => (
       disableDefaultUI: true,
       zoomControl: true,
       scrollwheel: false,
-      styles: MAP_STYLES
+      styles: MAP_STYLES,
+      gestureHandling: 'none'
     }}
   >
     {PLACES.map((place, index) => {
