@@ -24,6 +24,7 @@ class App extends Component {
           <div className="header-text">
             <h1>mid-market status</h1>
             <p className="subtitle">developments in and around sf civic center</p>
+            <p className="contact"><a href="mailto:maxheinritz@gmail.com">contact</a></p>
           </div>
         </header>
         <main>

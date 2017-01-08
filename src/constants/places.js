@@ -4,7 +4,7 @@ export default [
         "title": "Trinity Place (Phase 4)",
         "developer": "http://www.trinitysf.com/trinity-place/",
         "news": "http://www.sfchronicle.com/bayarea/article/S-F-planners-back-bold-original-vision-for-6845780.php",
-        "description": "The final part of a large apartment complex with public open spaces and retail. Includes space for a multistory grocery store that could connect to Civic Center BART.",
+        "description": "The final part of a large apartment complex with public open spaces and retail. It might include a multi-story grocery store connects to the Civic Center BART station.",
         "eta": "2018+",
         "coords": "[{\"lat\":37.77928833373975,\"lng\":-122.41370469331741},{\"lat\":37.77907421797231,\"lng\":-122.41344183683395},{\"lat\":37.77899577936766,\"lng\":-122.41354644298553},{\"lat\":37.77890038095251,\"lng\":-122.41342306137085},{\"lat\":37.77875834308406,\"lng\":-122.41360813379288},{\"lat\":37.77887282138742,\"lng\":-122.41374760866165},{\"lat\":37.77865446447015,\"lng\":-122.41402387619019},{\"lat\":37.77856754551777,\"lng\":-122.4139192700386},{\"lat\":37.778395827287085,\"lng\":-122.41414457559586},{\"lat\":37.778684144089006,\"lng\":-122.41449862718582}]"
     },
@@ -13,7 +13,7 @@ export default [
         "title": "Trinity Place (Phase 3)",
         "developer": "http://www.trinitysf.com/trinity-place/",
         "news": "http://www.nbcbayarea.com/news/local/92-Foot-Venus-Statue-is-Completed-Tallest-Sculpture-in-San-Francisco-380527661.html",
-        "description": "The third part of a large apartment complex with public open spaces and retail. Features a large metal statue in a courtyard.",
+        "description": "The third building in a large apartment complex with public open spaces and lots of retail. The back courtyard features Venus, a 92-foot metal sculpture. ",
         "eta": "Q2 2017",
         "coords": "[{\"lat\":37.77886434151916,\"lng\":-122.41332650184631},{\"lat\":37.77872654352386,\"lng\":-122.41314947605133},{\"lat\":37.77833434782357,\"lng\":-122.41364300251007},{\"lat\":37.77803542970333,\"lng\":-122.41328626871109},{\"lat\":37.77788279019702,\"lng\":-122.4134874343872},{\"lat\":37.77834706771675,\"lng\":-122.41407483816147},{\"lat\":37.778889781120995,\"lng\":-122.4133613705635}]"
     },
@@ -32,42 +32,46 @@ export default [
         "title": "YOTEL",
         "developer": "http://synapsed.com/portfolio/yotel-sanfrancisco/",
         "news": "http://www.sfgate.com/bayarea/article/170-square-foot-hotel-rooms-coming-to-S-F-5533389.php",
-        "description": "The SF debut of YOTEL, a hotel brand inspired by the modernity and efficiency of Japanese capsule hotels.",
+        "description": "The SF debut of YOTEL, a hotel brand that draws inspiration from the modernity and efficiency of Japanese capsule hotels.",
         "eta": "Q4 2017",
-        "coords": "[{\"lat\":37.780455359767586,\"lng\":-122.41232335567474},{\"lat\":37.7801267711964,\"lng\":-122.41190895438194},{\"lat\":37.780223227992956,\"lng\":-122.41178557276726},{\"lat\":37.780308025072756,\"lng\":-122.41189152002335},{\"lat\":37.78028576584871,\"lng\":-122.41192236542702},{\"lat\":37.78041296132435,\"lng\":-122.41208598017693},{\"lat\":37.78043416054901,\"lng\":-122.41205513477325},{\"lat\":37.780550756175934,\"lng\":-122.41221204400063},{\"lat\":37.780462779492645,\"lng\":-122.4123327434063}]"
+        "coords": "[{\"lat\":37.780455359767586,\"lng\":-122.41232335567474},{\"lat\":37.7801267711964,\"lng\":-122.41190895438194},{\"lat\":37.780223227992956,\"lng\":-122.41178557276726},{\"lat\":37.780308025072756,\"lng\":-122.41189152002335},{\"lat\":37.78028576584871,\"lng\":-122.41192236542702},{\"lat\":37.78041296132435,\"lng\":-122.41208598017693},{\"lat\":37.78043416054901,\"lng\":-122.41205513477325},{\"lat\":37.780550756175934,\"lng\":-122.41221204400063},{\"lat\":37.780462779492645,\"lng\":-122.4123327434063}]",
+        "address": "1095 Market St"
     },
     {
         "id": "merrill",
-        "title": "Merrill Drug Store",
+        "title": "Merrills Drug Store",
         "developer": "http://propertymap.sfplanning.org?search=1089+MARKET+ST",
-        "description": "This property was purchased in 2013 by Paul G Boschetti, the owner of the adjacent Aida Hotel. Nothing has happened since.",
+        "description": "Vacant since 2004, his property was purchased in 2013 by Paul G Boschetti, the owner of the adjacent Aida Hotel. Nothing has happened since.",
         "eta": "No timeline",
-        "coords": "[{\"lat\":37.780234887597196,\"lng\":-122.41177752614021},{\"lat\":37.78057195536108,\"lng\":-122.41220399737358},{\"lat\":37.78064509250312,\"lng\":-122.41210877895355},{\"lat\":37.78031120496136,\"lng\":-122.41167694330215}]"
+        "coords": "[{\"lat\":37.780234887597196,\"lng\":-122.41177752614021},{\"lat\":37.78057195536108,\"lng\":-122.41220399737358},{\"lat\":37.78064509250312,\"lng\":-122.41210877895355},{\"lat\":37.78031120496136,\"lng\":-122.41167694330215}]",
+        "address": "1091 Market St"
     },
     {
         "id": "proper_hotel",
         "title": "Proper Hotel",
         "developer": "http://www.properhotel.com/san-francisco",
         "news": "http://www.architecturaldigest.com/story/kelly-wearstler-proper-hotels",
-        "description": "The SF location of the Kor Group's a new \"Proper\" hotel brand.",
+        "description": "The SF location of the Kor Group's new \"Proper\" hotel brand. There are plans for three separate restaurants on the ground floor, as well as a restaurant and bar on the rooftop with panoramic views of the San Francisco skyline.",
         "eta": "Q4 2017",
-        "coords": "[{\"lat\":37.78106907450963,\"lng\":-122.4121356010437},{\"lat\":37.78096731904986,\"lng\":-122.4120819568634},{\"lat\":37.780598454333955,\"lng\":-122.41255402565002},{\"lat\":37.78095459960753,\"lng\":-122.41298049688339}]"
+        "coords": "[{\"lat\":37.78106907450963,\"lng\":-122.4121356010437},{\"lat\":37.78096731904986,\"lng\":-122.4120819568634},{\"lat\":37.780598454333955,\"lng\":-122.41255402565002},{\"lat\":37.78095459960753,\"lng\":-122.41298049688339}]",
+        "address": "45 McAllister St"
     },
     {
         "id": "hibernia",
-        "title": "Hibernia Bank Building",
+        "title": "Hibernia Bank",
         "developer": "http://thehiberniabanksf.com/",
         "news": "http://www.sfchronicle.com/bayarea/nativeson/article/Best-of-SF-s-past-ready-for-future-9518392.php",
-        "description": "The building has been vacant since construction ended in early 2016, aside from a handful of events such as a rally for Hillary Clinton. It seems the owner is having trouble finding a tenant at a price they are comfortable with.",
+        "description": "The building appears to have been mostly unused since construction ended in early 2016, aside from a handful of one-time events, including a rally for Hillary Clinton. It seems the landlord is having trouble finding a tenant at the right price.",
         "eta": "Construction finished 2016, no timeline for tenant",
-        "coords": "[{\"lat\":37.78153121212655,\"lng\":-122.41267204284668},{\"lat\":37.781143271110714,\"lng\":-122.41258889436722},{\"lat\":37.78118142933369,\"lng\":-122.41226702928543},{\"lat\":37.781196268637316,\"lng\":-122.41221070289612},{\"lat\":37.78123442683297,\"lng\":-122.41217315196991},{\"lat\":37.781287424294206,\"lng\":-122.41216510534286},{\"lat\":37.781596928708986,\"lng\":-122.41223216056824},{\"lat\":37.781546051359946,\"lng\":-122.41268008947372}]"
+        "coords": "[{\"lat\":37.78153121212655,\"lng\":-122.41267204284668},{\"lat\":37.781143271110714,\"lng\":-122.41258889436722},{\"lat\":37.78118142933369,\"lng\":-122.41226702928543},{\"lat\":37.781196268637316,\"lng\":-122.41221070289612},{\"lat\":37.78123442683297,\"lng\":-122.41217315196991},{\"lat\":37.781287424294206,\"lng\":-122.41216510534286},{\"lat\":37.781596928708986,\"lng\":-122.41223216056824},{\"lat\":37.781546051359946,\"lng\":-122.41268008947372}]",
+        "address": "1 Jones St"
     },
     {
         "id": "1075_market",
         "title": "1075 Market",
         "developer": "http://www.levydesignpartners.com/projects/market.html",
         "news": "http://www.bizjournals.com/sanfrancisco/blog/real-estate/2016/09/mid-market-condos-starting-in-sf-housing-develop.html",
-        "description": "A 44-unit efficiency condo building with studios starting at 529k and 2-bedrooms up to 1.17 million. 11 will be subsidized. Ground-floor commercial with face both Market St and Stevenson St.",
+        "description": "A 44-unit efficiency condo building currently under construction. It will have studios starting at $529k and 2-bedrooms up to $1.17m. 11 units will be subsidized. Ground-floor commercial will front both Market St and Stevenson St.",
         "eta": 2018,
         "coords": "[{\"lat\":37.78075108823274,\"lng\":-122.4118821322918},{\"lat\":37.7804542998068,\"lng\":-122.4115227162838},{\"lat\":37.78058255495138,\"lng\":-122.41136446595192},{\"lat\":37.78086556345002,\"lng\":-122.41173192858696}]",
         "address": "1075 Market St"
@@ -132,7 +136,7 @@ export default [
     },
     {
         "id": "tndc_eddy_taylor",
-        "title": "168 Eddy",
+        "title": "168-186 Eddy",
         "developer": "http://www.tndc.org/indevelopment/eddy-taylor-family-apartments/",
         "news": "http://www.socketsite.com/archives/2015/03/downsized-development-and-grocery-approved-for-tenderloin-site.html",
         "description": "A 100-percent subsidized family apartment complex at Eddy and Taylor streets with grocery retail on the ground floor.",
@@ -173,7 +177,7 @@ export default [
         "id": "101_hyde",
         "title": "101 Hyde",
         "news": "http://www.sfchronicle.com/bayarea/article/Deal-on-old-Tenderloin-post-office-a-boost-for-8218650.php",
-        "description": "A 100-percent subsidized residential complex with 87 units and groundfloor retail.",
+        "description": "There are plans to replace the former Post Office site with a 100-percent subsidized residential complex featuring 87 units and groundfloor retail. A public market in the now-vacant building is scheduled to open by the end of 2017.",
         "eta": 2021,
         "coords": "[{\"lat\":37.781878873383455,\"lng\":-122.41614818572998},{\"lat\":37.78167112478022,\"lng\":-122.41611197590828},{\"lat\":37.78172730175604,\"lng\":-122.41564258933067},{\"lat\":37.781941409838446,\"lng\":-122.41568148136139}]",
         "address": "101 Hyde St"
@@ -182,7 +186,7 @@ export default [
         "id": "135_hyde",
         "title": "135 Hyde",
         "news": "http://www.socketsite.com/archives/2016/02/proposed-tenderloin-development-reviewed.html",
-        "description": "A residential building with 51 market-rate efficiency apartments.",
+        "description": "A planned residential building with 51 market-rate efficiency apartments.",
         "eta": "No timeline",
         "coords": "[{\"lat\":37.78219049519343,\"lng\":-122.41621524095535},{\"lat\":37.78204528383322,\"lng\":-122.4161870777607},{\"lat\":37.78210358039895,\"lng\":-122.41571635007858},{\"lat\":37.78225303138479,\"lng\":-122.41574853658676}]",
         "address": "135 Hyde St"
@@ -192,7 +196,6 @@ export default [
         "title": "1500 Mission",
         "developer": "http://www.relatedcalifornia.com/ourcompany/properties/203/1500-mission-street/",
         "news": "http://www.socketsite.com/archives/2016/10/refined-designs-and-timing-for-massive-goodwill-site-development.html",
-        "linkdetails": "http://commissions.sfplanning.org/cpcpackets/2014-000362ENV_1500%20Mission%20NOA_NOP.pdf",
         "description": "A skyscraper project with two parts: a 550-unit residential tower and a 500k sqft office building for the city of SF.",
         "eta": "In planning",
         "coords": "[{\"lat\":37.7742511489937,\"lng\":-122.41876602172852},{\"lat\":37.773386143347494,\"lng\":-122.4185460805893},{\"lat\":37.774331712729904,\"lng\":-122.41731762886047},{\"lat\":37.77486597528525,\"lng\":-122.4179881811142}]",
@@ -233,7 +236,8 @@ export default [
         "news": "http://sf.curbed.com/2016/4/18/11455922/one-oak-van-ness",
         "description": "A 39-story, 300-unit skyscraper at one of the busiest intersections in the city.",
         "eta": 2020,
-        "coords": "[{\"lat\":37.775247589032475,\"lng\":-122.42011249065399},{\"lat\":37.77479389246737,\"lng\":-122.42001861333847},{\"lat\":37.775200947457925,\"lng\":-122.41949558258057},{\"lat\":37.77531755133915,\"lng\":-122.4195197224617}]"
+        "coords": "[{\"lat\":37.775247589032475,\"lng\":-122.42011249065399},{\"lat\":37.77479389246737,\"lng\":-122.42001861333847},{\"lat\":37.775200947457925,\"lng\":-122.41949558258057},{\"lat\":37.77531755133915,\"lng\":-122.4195197224617}]",
+        "address": "1500 Market Street"
     },
     {
         "id": "150_van_ness",
@@ -242,7 +246,8 @@ export default [
         "news": "http://www.sfhog.com/150-van-ness-construction-update/",
         "description": "A medium-rise project with 431 housing units. The developer, Emerald Fund, also remodeled the adjacent 100 Van Ness tower.",
         "eta": 2019,
-        "coords": "[{\"lat\":37.777265868981246,\"lng\":-122.41947144269943},{\"lat\":37.776907585911985,\"lng\":-122.419393658638},{\"lat\":37.777068707507084,\"lng\":-122.41806328296661},{\"lat\":37.77742062977,\"lng\":-122.418133020401}]"
+        "coords": "[{\"lat\":37.777265868981246,\"lng\":-122.41947144269943},{\"lat\":37.776907585911985,\"lng\":-122.419393658638},{\"lat\":37.777068707507084,\"lng\":-122.41806328296661},{\"lat\":37.77742062977,\"lng\":-122.418133020401}]",
+        "address": "150 Van Ness"
     },
     {
         "id": "ruth_asawa",

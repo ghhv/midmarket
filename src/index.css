@@ -34,11 +34,18 @@ header {
   margin-left: 1em;
   display: flex;
   align-items: baseline;
+  flex-grow: 1;
 }
 
-p.subtitle {
+.subtitle {
   margin-left: 1em;
   font-style: italic;
+  flex-grow: 1;
+}
+
+.contact a {
+  color: white;
+  margin-right: 2em;
 }
 
 .logo {
@@ -58,6 +65,7 @@ main {
   display: flex;
   align-items: stretch;
 }
+
 .map-element {
   flex-grow: 1;
 }
