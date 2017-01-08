@@ -81,7 +81,7 @@ class MidMarketMap extends Component {
     super(props);
     this.state = {
       center: {lat: 37.7788982609863, lng: -122.41403460502625},
-      zoom: 16
+      zoom: window.innerWidth > 720 ? 16 : 14
     };
   }
 
