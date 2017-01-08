@@ -5,14 +5,14 @@ import MAP_STYLES from '../constants/mapstyles.js';
 import PLACES from '../constants/places.js';
 
 const OPACITIES = {
-  'no timeline': .1,
-  'planning': .3,
-  'construction': .3,
-  '2021': .3,
-  '2020': .3,
-  '2019': .5,
-  '2018': .6,
-  '2017': .8,
+  'no timeline': .5,
+  'planning': 1,
+  'construction': 1,
+  '2021': 1,
+  '2020': 1,
+  '2019': 1,
+  '2018': 1,
+  '2017': 1,
   '2016': 1
 };
 
