@@ -97,8 +97,11 @@ main {
   user-select: none;
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  color: gray;
   cursor: pointer;
+}
+
+.place-card h2 {
+  font-weight: normal;
 }
 
 .place-card img {
@@ -106,8 +109,9 @@ main {
   filter: grayscale(100%);
 }
 
-.place-card.selected-true {
+.place-card.selected-true h2 {
   color: black;
+  font-weight: bold;
 }
 .place-card.selected-true img {
   filter: none;
