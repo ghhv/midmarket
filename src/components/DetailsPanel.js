@@ -125,7 +125,7 @@ class DetailsPanel extends Component {
     var selectedIndex = this.props.selectedIndex;
     if (direction === 'down') {
       if (fullyVisible.length) {
-        selectedIndex = fullyVisible[fullyVisible.length - 1];
+        selectedIndex = fullyVisible[0];
       } else if (topVisible.length) {
         selectedIndex = topVisible[0];
       }
