@@ -98,7 +98,7 @@ class DetailsPanel extends Component {
       var cardEl = ReactDOM.findDOMNode(this.cards[i]);
 
       var cardBottom = cardEl.offsetTop + cardEl.clientHeight;
-      var cardTop = cardEl.offsetTop;
+      var cardTop = cardEl.offsetTop + 40;  // Offset.
 
       var isBottomVisible = cardBottom <= viewBottom && cardBottom >= viewTop;
       var isTopVisible = cardTop <= viewBottom && cardTop >= viewTop;
