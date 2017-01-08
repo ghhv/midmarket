@@ -4,7 +4,7 @@ export default [
         "title": "Trinity Place (Phase 4)",
         "developer": "http://www.trinitysf.com/trinity-place/",
         "news": "http://www.sfchronicle.com/bayarea/article/S-F-planners-back-bold-original-vision-for-6845780.php",
-        "description": "The final part of a large apartment complex with public open spaces and retail. It might include a multi-story grocery store connects to the Civic Center BART station.",
+        "description": "The final part of a large apartment complex with public open spaces and retail. It might include a multi-story grocery store connected the Civic Center BART station.",
         "eta": "2018+",
         "coords": "[{\"lat\":37.77928833373975,\"lng\":-122.41370469331741},{\"lat\":37.77907421797231,\"lng\":-122.41344183683395},{\"lat\":37.77899577936766,\"lng\":-122.41354644298553},{\"lat\":37.77890038095251,\"lng\":-122.41342306137085},{\"lat\":37.77875834308406,\"lng\":-122.41360813379288},{\"lat\":37.77887282138742,\"lng\":-122.41374760866165},{\"lat\":37.77865446447015,\"lng\":-122.41402387619019},{\"lat\":37.77856754551777,\"lng\":-122.4139192700386},{\"lat\":37.778395827287085,\"lng\":-122.41414457559586},{\"lat\":37.778684144089006,\"lng\":-122.41449862718582}]"
     },
@@ -41,7 +41,7 @@ export default [
         "id": "merrill",
         "title": "Merrills Drug Store",
         "developer": "http://propertymap.sfplanning.org?search=1089+MARKET+ST",
-        "description": "Vacant since 2004, his property was purchased in 2013 by Paul G Boschetti, the owner of the adjacent Aida Hotel. Nothing has happened since.",
+        "description": "Vacant since 2004, deed transfer records show that this property was purchased in 2013 by Paul G Boschetti, the owner of the adjacent Aida Hotel. No updates since.",
         "eta": "No timeline",
         "coords": "[{\"lat\":37.780234887597196,\"lng\":-122.41177752614021},{\"lat\":37.78057195536108,\"lng\":-122.41220399737358},{\"lat\":37.78064509250312,\"lng\":-122.41210877895355},{\"lat\":37.78031120496136,\"lng\":-122.41167694330215}]",
         "address": "1091 Market St"
@@ -107,7 +107,7 @@ export default [
     },
     {
         "id": "950_market",
-        "title": "950 Market",
+        "title": "950-974 Market St",
         "developer": "http://950-974market.com/",
         "news": "http://www.sfchronicle.com/bayarea/article/Transgender-groups-seek-to-preserve-site-of-condo-10818642.php",
         "description": "A massive mixed-use development with 242 condo units, 232 hotel rooms, and 13,000 square feet of ground floor retail.",
