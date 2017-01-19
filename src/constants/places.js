@@ -1,5 +1,21 @@
 export default [
     {
+        "id": "1270_mission_st",
+        "title": "1270 Mission St",
+        "description": "A 21-story building with 299 apartments averaging 663 square feet, with restaraunt space along Mission St.",
+        "eta": "In planning",
+        "coords": "[{\"lat\":37.77658004158675,\"lng\":-122.41446241736412},{\"lat\":37.776761304159656,\"lng\":-122.41423845291138},{\"lat\":37.777096267744774,\"lng\":-122.41466894745827},{\"lat\":37.776918186027736,\"lng\":-122.41488352417946}]",
+        "address": "1270 Mission St"
+    },
+    {
+        "id": "1236_market_st",
+        "title": "1236 Market Street",
+        "description": "Plans for a 105-room hotel with frontage on both Market and Grove have been submitted to the city.",
+        "eta": "In planning",
+        "coords": "[{\"lat\":37.77836084759858,\"lng\":-122.4155205488205},{\"lat\":37.778660824389476,\"lng\":-122.41587996482849},{\"lat\":37.77861418496834,\"lng\":-122.4160784482956},{\"lat\":37.77845306674163,\"lng\":-122.41587862372398},{\"lat\":37.77848804638647,\"lng\":-122.41582497954369},{\"lat\":37.77831314799669,\"lng\":-122.41558492183685}]",
+        "address": "1236 Market St"
+    },
+    {
         "id": "trinity_place_4",
         "title": "Trinity Place (Phase 4)",
         "developer": "http://www.trinitysf.com/trinity-place/",

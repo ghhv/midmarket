@@ -1,4 +1,5 @@
 export default [
+
   {
         "stylers": [
           { "visibility": "off" },
@@ -11,15 +12,6 @@ export default [
         "stylers": [
             {
                 "color": "#9c9c9c"
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text",
-        "stylers": [
-            {
-                "visibility": "off"
             }
         ]
     },
@@ -89,24 +81,6 @@ export default [
         ]
     },
     {
-        "featureType": "road",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#7b7b7b"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
         "featureType": "road.highway",
         "elementType": "all",
         "stylers": [
@@ -171,5 +145,15 @@ export default [
                 "color": "#ffffff"
             }
         ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
     }
+
 ]
