@@ -256,5 +256,13 @@ export default [
         "eta": "In planning",
         "coords": "[{\"lat\":37.781522732563275,\"lng\":-122.41991937160492},{\"lat\":37.78121322783782,\"lng\":-122.41985499858856},{\"lat\":37.78116659002711,\"lng\":-122.4202412366867},{\"lat\":37.78146761537824,\"lng\":-122.42030024528503}]",
         "address": "600 Van Ness"
+    },
+    {
+        "id": "500_turk",
+        "title": "500 Turk St",
+        "description": "A 121-unit 100% subsidized building with two ground-floor commercial spaces and a private rooftop and courtyard for residents only.",
+        "eta": "In planning",
+        "coords": "[{\"lat\":37.78277451756415,\"lng\":-122.41802304983139},{\"lat\":37.782397182403976,\"lng\":-122.41794928908348},{\"lat\":37.782456538624245,\"lng\":-122.41747587919235},{\"lat\":37.78283387348143,\"lng\":-122.41755500435829}]",
+        "address": "500 Turk St"
     }
 ]
