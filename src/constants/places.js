@@ -3,7 +3,7 @@ export default [
         "id": "1270_mission_st",
         "title": "1270 Mission St",
         "description": "A 21-story building with 299 apartments averaging 663 square feet, with restaraunt space along Mission St.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.77658004158675,\"lng\":-122.41446241736412},{\"lat\":37.776761304159656,\"lng\":-122.41423845291138},{\"lat\":37.777096267744774,\"lng\":-122.41466894745827},{\"lat\":37.776918186027736,\"lng\":-122.41488352417946}]",
         "address": "1270 Mission St"
     },
@@ -11,7 +11,7 @@ export default [
         "id": "1236_market_st",
         "title": "1236 Market Street",
         "description": "Plans for a 105-room hotel with frontage on both Market and Grove have been submitted to the city.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.77836084759858,\"lng\":-122.4155205488205},{\"lat\":37.778660824389476,\"lng\":-122.41587996482849},{\"lat\":37.77861418496834,\"lng\":-122.4160784482956},{\"lat\":37.77845306674163,\"lng\":-122.41587862372398},{\"lat\":37.77848804638647,\"lng\":-122.41582497954369},{\"lat\":37.77831314799669,\"lng\":-122.41558492183685}]",
         "address": "1236 Market St"
     },
@@ -107,7 +107,7 @@ export default [
         "title": "1028 Market",
         "developer": "http://www.1028market.com/",
         "description": "The planned 13-story, 186-unit residential project would offer retail on both Golden Gate Ave and Market St. The city's September 2016 environmental impact report recommended against construction in favor of preserving the \"historic\" existing building as a vacant shell.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.782066482589705,\"lng\":-122.41152673959732},{\"lat\":37.78158102954118,\"lng\":-122.41142615675926},{\"lat\":37.781871453800534,\"lng\":-122.41105869412422},{\"lat\":37.78197744777154,\"lng\":-122.41121292114258},{\"lat\":37.78210358039895,\"lng\":-122.41124242544174}]",
         "address": "1028 Market St"
     },
@@ -152,7 +152,7 @@ export default [
         "title": "5M Project",
         "developer": "http://www.5mproject.com/",
         "description": "A large project with several skyscrapers and green open spaces. It will add several hundred new housing units, 40% of which will be subsidized.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.78182375646399,\"lng\":-122.40740954875946},{\"lat\":37.781980627588304,\"lng\":-122.40722179412842},{\"lat\":37.781607528152314,\"lng\":-122.40673899650574},{\"lat\":37.78218837532163,\"lng\":-122.40599870681763},{\"lat\":37.78151001321653,\"lng\":-122.40515649318695},{\"lat\":37.780984278302874,\"lng\":-122.4057787656784},{\"lat\":37.78138705941849,\"lng\":-122.40627765655518},{\"lat\":37.78115387061908,\"lng\":-122.4065887928009}]",
         "address": "901 Mission St"
     },
@@ -195,7 +195,7 @@ export default [
         "title": "1500 Mission",
         "developer": "http://www.relatedcalifornia.com/ourcompany/properties/203/1500-mission-street/",
         "description": "A skyscraper project with two parts: a 550-unit residential tower and a 500k sqft office building for the city of SF.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.7742511489937,\"lng\":-122.41876602172852},{\"lat\":37.773386143347494,\"lng\":-122.4185460805893},{\"lat\":37.774331712729904,\"lng\":-122.41731762886047},{\"lat\":37.77486597528525,\"lng\":-122.4179881811142}]",
         "address": "1500 Mission"
     },
@@ -203,7 +203,7 @@ export default [
         "id": "30_otis",
         "title": "30 Otis St",
         "description": "A skyscraper with 418 apartments above a ballet school, included to replace the one at the current site.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.77274162275715,\"lng\":-122.41934537887573},{\"lat\":37.77297907836514,\"lng\":-122.41969406604767},{\"lat\":37.773377662849896,\"lng\":-122.41922199726105},{\"lat\":37.77311900720562,\"lng\":-122.41885721683502}]",
         "address": "30 Otis St"
     },
@@ -212,7 +212,7 @@ export default [
         "title": "10 South Van Ness",
         "developer": "https://www.crescentheights.com/portfolio/10-van-ness/",
         "description": "Two residential towers planned by Crescent Heights, the developer of NEMA at 10th and Market.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.774357153891515,\"lng\":-122.42002665996552},{\"lat\":37.77482781380219,\"lng\":-122.41938829421997},{\"lat\":37.77367871991927,\"lng\":-122.41903424263},{\"lat\":37.77364479805725,\"lng\":-122.41907715797424}]",
         "address": "10 South Van Ness"
     },
@@ -220,7 +220,7 @@ export default [
         "id": "1554_market",
         "title": "1554 Market",
         "description": "109 new residential units with up to 4,500 square feet of ground-floor retail.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.77459460431103,\"lng\":-122.42028146982193},{\"lat\":37.77520518760228,\"lng\":-122.42041558027267},{\"lat\":37.77524122881949,\"lng\":-122.42012321949005},{\"lat\":37.774783292047054,\"lng\":-122.42002934217453}]",
         "address": "1554 Market"
     },
@@ -253,7 +253,7 @@ export default [
         "id": "600_van_ness",
         "title": "600 Van Ness",
         "description": "The former McDonalds site will be used for storage during Van Ness bus corridor construction. There are plans to eventually construct a 130-foot building on the site, with 152 residential units and ~10k sqft of public open space.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.781522732563275,\"lng\":-122.41991937160492},{\"lat\":37.78121322783782,\"lng\":-122.41985499858856},{\"lat\":37.78116659002711,\"lng\":-122.4202412366867},{\"lat\":37.78146761537824,\"lng\":-122.42030024528503}]",
         "address": "600 Van Ness"
     },
@@ -261,7 +261,7 @@ export default [
         "id": "500_turk",
         "title": "500 Turk St",
         "description": "A 121-unit 100% subsidized building with two ground-floor commercial spaces and a private rooftop and courtyard for residents only.",
-        "eta": "In planning",
+        "eta": "Planned",
         "coords": "[{\"lat\":37.78277451756415,\"lng\":-122.41802304983139},{\"lat\":37.782397182403976,\"lng\":-122.41794928908348},{\"lat\":37.782456538624245,\"lng\":-122.41747587919235},{\"lat\":37.78283387348143,\"lng\":-122.41755500435829}]",
         "address": "500 Turk St"
     }

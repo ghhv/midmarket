@@ -148,10 +148,10 @@ export default [
     },
     {
         "featureType": "all",
-        "elementType": "labels",
+        "elementType": "labels.text",
         "stylers": [
             {
-                "visibility": "off"
+                "visibility": "on"
             }
         ]
     }

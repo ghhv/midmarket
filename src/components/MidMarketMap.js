@@ -6,7 +6,7 @@ import PLACES from '../constants/places.js';
 
 const OPACITIES = {
   'no timeline': .5,
-  'planning': 1,
+  'planned': 1,
   'construction': 1,
   '2021': 1,
   '2020': 1,
@@ -34,8 +34,8 @@ const MapBase = withGoogleMap(props => (
     center={props.center}
     onZoomChanged={props.onZoomChanged}
     defaultOptions={{
-      disableDefaultUI: true,
       zoomControl: true,
+      disableDefaultUI: true,
       scrollwheel: false,
       styles: MAP_STYLES,
       gestureHandling: 'none'
