@@ -77,6 +77,14 @@ export default [
         "address": "1 Jones St"
     },
     {
+        "id": "180_jones",
+        "title": "180 Jones",
+        "description": "There are early plans to put a 68-unit subsidized housing project here.",
+        "eta": "Planned",
+        "coords": "[{\"lat\":37.7829271469694,\"lng\":-122.41227775812149},{\"lat\":37.78269820274333,\"lng\":-122.41223216056824},{\"lat\":37.78272258109746,\"lng\":-122.41203233599663},{\"lat\":37.782956824872706,\"lng\":-122.41207927465439}]",
+        "address": "180 Jones"
+    },
+    {
         "id": "1075_market",
         "title": "1075 Market",
         "developer": "http://www.levydesignpartners.com/projects/market.html",
@@ -92,6 +100,15 @@ export default [
         "eta": "No timeline",
         "coords": "[{\"lat\":37.781148570865085,\"lng\":-122.41149187088013},{\"lat\":37.78124502632826,\"lng\":-122.41135910153389},{\"lat\":37.78091326140489,\"lng\":-122.41093531250954},{\"lat\":37.78080832586353,\"lng\":-122.41106003522873}]",
         "address": "1055 Market St"
+    },
+    {
+        "id": "1036_mission",
+        "title": "1036 Mission",
+        "developer": "http://www.tndc.org/indevelopment/1036-mission-street/",
+        "description": "A 100% subsidized development with 83 affordable residential rental units and a ground level commercial space for a community-serving retail use.",
+        "eta": "Q4 2017",
+        "coords": "[{\"lat\":37.78060693400326,\"lng\":-122.41016149520874},{\"lat\":37.7802974254431,\"lng\":-122.40978598594666},{\"lat\":37.78047973886143,\"lng\":-122.40954995155334},{\"lat\":37.78078076700979,\"lng\":-122.40993082523346}]",
+        "address": "1036 Mission St"
     },
     {
         "id": "1066_market",
@@ -217,6 +234,14 @@ export default [
         "address": "10 South Van Ness"
     },
     {
+        "id": "1629_market",
+        "title": "1629 Market",
+        "description": "A mixed-used project with 584 units of housing, a new 27,000 square foot hall and office space, and over 23,000 square feet of publicly accessible open space.",
+        "eta": "Planned",
+        "coords": "[{\"lat\":37.774263869589475,\"lng\":-122.42019295692444},{\"lat\":37.77350487021185,\"lng\":-122.42114782333374},{\"lat\":37.77293243535947,\"lng\":-122.42045044898987},{\"lat\":37.773657518757325,\"lng\":-122.41946339607239}]",
+        "address": "1629 Market"
+    },
+    {
         "id": "1554_market",
         "title": "1554 Market",
         "description": "109 new residential units with up to 4,500 square feet of ground-floor retail.",
@@ -231,7 +256,7 @@ export default [
         "description": "A 39-story, 300-unit skyscraper at one of the busiest intersections in the city.",
         "eta": 2020,
         "coords": "[{\"lat\":37.775247589032475,\"lng\":-122.42011249065399},{\"lat\":37.77479389246737,\"lng\":-122.42001861333847},{\"lat\":37.775200947457925,\"lng\":-122.41949558258057},{\"lat\":37.77531755133915,\"lng\":-122.4195197224617}]",
-        "address": "1500 Market Street"
+        "address": "1500 Market"
     },
     {
         "id": "150_van_ness",
