@@ -2,7 +2,7 @@ export default [
     {
         "id": "1270_mission_st",
         "title": "1270 Mission St",
-        "description": "A 21-story building with 299 apartments averaging 663 square feet, with restaraunt space along Mission St.",
+        "description": "A 21-story building with 299 apartments averaging 663 square feet, with restaurant space along Mission St.",
         "eta": "Planned",
         "coords": "[{\"lat\":37.77658004158675,\"lng\":-122.41446241736412},{\"lat\":37.776761304159656,\"lng\":-122.41423845291138},{\"lat\":37.777096267744774,\"lng\":-122.41466894745827},{\"lat\":37.776918186027736,\"lng\":-122.41488352417946}]",
         "address": "1270 Mission St"
@@ -52,7 +52,6 @@ export default [
     {
         "id": "merrill",
         "title": "Merrills Drug Store",
-        "developer": "http://propertymap.sfplanning.org?search=1089+MARKET+ST",
         "description": "Vacant since 2004, deed transfer records show that this property was purchased in 2013 by Paul G Boschetti, the owner of the adjacent Aida Hotel. No updates since.",
         "eta": "No timeline",
         "coords": "[{\"lat\":37.780234887597196,\"lng\":-122.41177752614021},{\"lat\":37.78057195536108,\"lng\":-122.41220399737358},{\"lat\":37.78064509250312,\"lng\":-122.41210877895355},{\"lat\":37.78031120496136,\"lng\":-122.41167694330215}]",
@@ -63,7 +62,7 @@ export default [
         "title": "Proper Hotel",
         "developer": "http://www.properhotel.com/san-francisco",
         "description": "The SF location of the Kor Group's new \"Proper\" hotel brand. There are plans for three separate restaurants on the ground floor, as well as a restaurant and bar on the rooftop with panoramic views of the San Francisco skyline.",
-        "eta": "Q4 2017",
+        "eta": "Opened Q4 2017",
         "coords": "[{\"lat\":37.78106907450963,\"lng\":-122.4121356010437},{\"lat\":37.78096731904986,\"lng\":-122.4120819568634},{\"lat\":37.780598454333955,\"lng\":-122.41255402565002},{\"lat\":37.78095459960753,\"lng\":-122.41298049688339}]",
         "address": "45 McAllister St"
     },
@@ -92,6 +91,15 @@ export default [
         "eta": 2018,
         "coords": "[{\"lat\":37.78075108823274,\"lng\":-122.4118821322918},{\"lat\":37.7804542998068,\"lng\":-122.4115227162838},{\"lat\":37.78058255495138,\"lng\":-122.41136446595192},{\"lat\":37.78086556345002,\"lng\":-122.41173192858696}]",
         "address": "1075 Market St"
+    },
+    {
+        "id": "119_7th",
+        "title": "119 7th St",
+        "developer": "http://www.themarkcompany.com/project/119-7th-street/",
+        "description": "A modern 8-story condo building.",
+        "eta": 2018,
+        "coords": "[{\"lat\":37.779250174539506,\"lng\":-122.41033583879471},{\"lat\":37.77904453851007,\"lng\":-122.41059333086014},{\"lat\":37.778885541187954,\"lng\":-122.41039216518402},{\"lat\":37.779095417580926,\"lng\":-122.41012394428253}]",
+        "address": "119 7th St"
     },
     {
         "id": "1055_market",
@@ -123,10 +131,18 @@ export default [
         "id": "1028_market",
         "title": "1028 Market",
         "developer": "http://www.1028market.com/",
-        "description": "The planned 13-story, 186-unit residential project would offer retail on both Golden Gate Ave and Market St. The city's September 2016 environmental impact report recommended against construction in favor of preserving the \"historic\" existing building as a vacant shell.",
+        "description": "The planned 13-story, 186-unit residential project would offer retail on both Golden Gate Ave and Market St.",
         "eta": "Planned",
         "coords": "[{\"lat\":37.782066482589705,\"lng\":-122.41152673959732},{\"lat\":37.78158102954118,\"lng\":-122.41142615675926},{\"lat\":37.781871453800534,\"lng\":-122.41105869412422},{\"lat\":37.78197744777154,\"lng\":-122.41121292114258},{\"lat\":37.78210358039895,\"lng\":-122.41124242544174}]",
         "address": "1028 Market St"
+    },
+    {
+        "id": "450_ofarrell",
+        "title": "450 O’Farrell St",
+        "description": "A building with 176 apartments to rise over the Fifth Church of Christ, Scientist.",
+        "eta": "Planned",
+        "coords": "[{\"lat\":37.786309291312826,\"lng\":-122.41297245025635},{\"lat\":37.786398320912674,\"lng\":-122.41231262683868},{\"lat\":37.785965890423014,\"lng\":-122.41222679615021},{\"lat\":37.78589805795976,\"lng\":-122.41276860237122},{\"lat\":37.786245698675835,\"lng\":-122.41283297538757},{\"lat\":37.78622874063006,\"lng\":-122.41296172142029}]",
+        "address": "450 O’Farrell St"
     },
     {
         "id": "950_market",
@@ -138,13 +154,13 @@ export default [
         "address": "950 Market St"
     },
     {
-        "id": "6x6",
-        "title": "6x6",
-        "developer": "http://6x6sf.com/",
-        "description": "According a Q4 2016 Chronicle article, this will be a \"multilevel retail, food and entertainment center — not a shopping mall\". Potential tenants include \"fashion-forward brands not currently in San Francisco (think Topshop and Primark)... home goods retailers, grocers... bookstores... restaurants, cocktail lounges\".",
-        "eta": 2016,
-        "coords": "[{\"lat\":37.78278617676596,\"lng\":-122.4094158411026},{\"lat\":37.78243428004723,\"lng\":-122.40898132324219},{\"lat\":37.78296848404577,\"lng\":-122.40830540657043},{\"lat\":37.783303419504094,\"lng\":-122.40874528884888}]",
-        "address": "945 Market St"
+        "id": "tndc_eddy_taylor",
+        "title": "168-186 Eddy",
+        "developer": "http://www.tndc.org/indevelopment/eddy-taylor-family-apartments/",
+        "description": "A 100-percent subsidized family apartment complex at Eddy and Taylor streets with grocery retail on the ground floor.",
+        "eta": "Q2 2019",
+        "coords": "[{\"lat\":37.784596510512785,\"lng\":-122.410928606987},{\"lat\":37.784653745165734,\"lng\":-122.4104592204094},{\"lat\":37.784318815826694,\"lng\":-122.410389482975},{\"lat\":37.78425946110197,\"lng\":-122.4108561873436}]",
+        "address": "168 Eddy St"
     },
     {
         "id": "25_mason",
@@ -156,13 +172,22 @@ export default [
         "address": "25 Mason St"
     },
     {
-        "id": "tndc_eddy_taylor",
-        "title": "168-186 Eddy",
-        "developer": "http://www.tndc.org/indevelopment/eddy-taylor-family-apartments/",
-        "description": "A 100-percent subsidized family apartment complex at Eddy and Taylor streets with grocery retail on the ground floor.",
-        "eta": "Q2 2019",
-        "coords": "[{\"lat\":37.784596510512785,\"lng\":-122.410928606987},{\"lat\":37.784653745165734,\"lng\":-122.4104592204094},{\"lat\":37.784318815826694,\"lng\":-122.410389482975},{\"lat\":37.78425946110197,\"lng\":-122.4108561873436}]",
-        "address": "168 Eddy St"
+        "id": "6x6",
+        "title": "6x6",
+        "developer": "http://6x6sf.com/",
+        "description": "According a Q4 2016 Chronicle article, this will be a \"multilevel retail, food and entertainment center — not a shopping mall\". Potential tenants include \"fashion-forward brands not currently in San Francisco (think Topshop and Primark)... home goods retailers, grocers... bookstores... restaurants, cocktail lounges\".",
+        "eta": 2018,
+        "coords": "[{\"lat\":37.78278617676596,\"lng\":-122.4094158411026},{\"lat\":37.78243428004723,\"lng\":-122.40898132324219},{\"lat\":37.78296848404577,\"lng\":-122.40830540657043},{\"lat\":37.783303419504094,\"lng\":-122.40874528884888}]",
+        "address": "945 Market St"
+    },
+    {
+        "id": "469_stevenson",
+        "title": "469 Stevenson",
+        "developer": "http://bldsf.com/blog/469stvnsn",
+        "description": "The parking lot behind 6x6 is planned to become 16-story building with 330 units of housing.",
+        "eta": "No timeline",
+        "coords": "[{\"lat\":37.78155665081056,\"lng\":-122.4093621969223},{\"lat\":37.781471855163176,\"lng\":-122.40925759077072},{\"lat\":37.782044223895205,\"lng\":-122.40852266550064},{\"lat\":37.7823473655394,\"lng\":-122.40890353918076},{\"lat\":37.78195942880719,\"lng\":-122.4093970656395},{\"lat\":37.781741081007745,\"lng\":-122.409128844738}]",
+        "address": "469 Stevenson St"
     },
     {
         "id": "5m",
@@ -289,5 +314,13 @@ export default [
         "eta": "Planned",
         "coords": "[{\"lat\":37.78277451756415,\"lng\":-122.41802304983139},{\"lat\":37.782397182403976,\"lng\":-122.41794928908348},{\"lat\":37.782456538624245,\"lng\":-122.41747587919235},{\"lat\":37.78283387348143,\"lng\":-122.41755500435829}]",
         "address": "500 Turk St"
+    },
+    {
+        "id": "550_ofarrell",
+        "title": "550 O’Farrell St",
+        "description": "A Tenderloin parking garage could be replaced by a 13-story tower under a new housing proposal for the changing neighborhood.",
+        "eta": "Planned",
+        "coords": "[{\"lat\":37.786137591067366,\"lng\":-122.41414725780487},{\"lat\":37.7857602730771,\"lng\":-122.41407215595245},{\"lat\":37.78578783007419,\"lng\":-122.41383343935013},{\"lat\":37.78616938743922,\"lng\":-122.41391122341156}]",
+        "address": "550 O’Farrell St"
     }
-]
+];
